@@ -1,5 +1,5 @@
 resources:
-  - name: res_eaque_0
+  - name: res_ex_0
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -7,8 +7,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_qui_0\/.+\b
-  - name: res_voluptas_1
+        include: \bres_esse_0\/.+\b
+  - name: res_ea_1
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -16,8 +16,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_incidunt_1\/.+\b
-  - name: res_nisi_2
+        include: \bres_rem_1\/.+\b
+  - name: res_corrupti_2
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -25,8 +25,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_dolore_2\/.+\b
-  - name: res_error_3
+        include: \bres_iusto_2\/.+\b
+  - name: res_est_3
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -34,8 +34,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_eum_3\/.+\b
-  - name: res_a_4
+        include: \bres_ratione_3\/.+\b
+  - name: res_explicabo_4
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -43,8 +43,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_et_4\/.+\b
-  - name: res_a_5
+        include: \bres_sed_4\/.+\b
+  - name: res_non_5
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -52,43 +52,43 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_eius_5\/.+\b
-  - name: res_incidunt_6
+        include: \bres_accusamus_5\/.+\b
+  - name: res_magnam_6
     type: PropertyBag
     configuration:
       key1: key1
       key2: key2
-  - name: res_architecto_7
+  - name: res_est_7
     type: PropertyBag
     configuration:
       key1: key1
       key2: key2
-  - name: res_laudantium_8
+  - name: res_distinctio_8
     type: PropertyBag
     configuration:
       key1: key1
       key2: key2
-  - name: res_quos_9
+  - name: res_repellendus_9
     type: PropertyBag
     configuration:
       key1: key1
       key2: key2
-  - name: res_aut_10
+  - name: res_ab_10
     type: PropertyBag
     configuration:
       key1: key1
       key2: key2
-  - name: res_dolor_11
+  - name: res_atque_11
     type: PropertyBag
     configuration:
       key1: key1
       key2: key2
-  - name: res_modi_12
+  - name: res_natus_12
     type: PropertyBag
     configuration:
       key1: key1
       key2: key2
-  - name: res_officiis_13
+  - name: res_quas_13
     type: PropertyBag
     configuration:
       key1: key1
