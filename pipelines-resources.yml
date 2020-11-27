@@ -1,5 +1,5 @@
 resources:
-  - name: res_saepe_0
+  - name: res_sed_0
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -7,8 +7,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_omnis_0\/.+\b
-  - name: res_ipsa_1
+        include: \bres_quam_0\/.+\b
+  - name: res_sint_1
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -16,8 +16,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_aspernatur_1\/.+\b
-  - name: res_reiciendis_2
+        include: \bres_tempore_1\/.+\b
+  - name: res_architecto_2
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -25,8 +25,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_quis_2\/.+\b
-  - name: res_dolorem_3
+        include: \bres_eligendi_2\/.+\b
+  - name: res_similique_3
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -34,8 +34,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_reprehenderit_3\/.+\b
-  - name: res_aspernatur_4
+        include: \bres_illum_3\/.+\b
+  - name: res_quasi_4
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -43,8 +43,8 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_praesentium_4\/.+\b
-  - name: res_at_5
+        include: \bres_nesciunt_4\/.+\b
+  - name: res_recusandae_5
     type: GitRepo
     configuration:
       path: Khazinawaz/testing_gitRepo
@@ -52,43 +52,43 @@ resources:
       branches:
         include: '^{{gitBranch}}$'
       files:
-        include: \bres_aliquam_5\/.+\b
-  - name: res_ipsam_6
+        include: \bres_id_5\/.+\b
+  - name: res_cumque_6
     type: PropertyBag
     configuration:
       key1: key1
       key2: key2
-  - name: res_id_7
+  - name: res_nam_7
     type: PropertyBag
     configuration:
       key1: key1
       key2: key2
-  - name: res_sunt_8
+  - name: res_at_8
     type: PropertyBag
     configuration:
       key1: key1
       key2: key2
-  - name: res_ratione_9
+  - name: res_voluptas_9
     type: PropertyBag
     configuration:
       key1: key1
       key2: key2
-  - name: res_est_10
+  - name: res_aliquid_10
     type: PropertyBag
     configuration:
       key1: key1
       key2: key2
-  - name: res_qui_11
+  - name: res_assumenda_11
     type: PropertyBag
     configuration:
       key1: key1
       key2: key2
-  - name: res_voluptates_12
+  - name: res_minima_12
     type: PropertyBag
     configuration:
       key1: key1
       key2: key2
-  - name: res_eveniet_13
+  - name: res_voluptatem_13
     type: PropertyBag
     configuration:
       key1: key1
