@@ -351,7 +351,9 @@ pipelines:
             - sleep 123s
             - printenv
             - sleep 117s
-        configuration: {}
+        configuration: 
+          inputResources:
+            - name: res_repellendus_9
       - name: step_consequatur_13
         type: Bash
         execution:
@@ -680,7 +682,9 @@ pipelines:
             - sleep 232s
             - printenv
             - sleep 208s
-        configuration: {}
+        configuration: 
+          inputResources:
+            - name: res_est_7
       - name: step_dolor_24
         type: Bash
         execution:
