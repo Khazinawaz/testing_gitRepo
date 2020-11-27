@@ -93,3 +93,57 @@ resources:
     configuration:
       key1: key1
       key2: key2
+  - name: res_illo_0
+    type: GitRepo
+    configuration:
+      path: Khazinawaz/testing_gitRepo
+      gitProvider: nawaz_gh
+      branches:
+        include: '^{{gitBranch}}$'
+      files:
+        include: \bres_exercitationem_0\/.+\b
+  - name: res_nam_1
+    type: PropertyBag
+    configuration:
+      key1: key1
+      key2: key2
+  - name: res_qui_2
+    type: PropertyBag
+    configuration:
+      key1: key1
+      key2: key2
+  - name: res_natus_3
+    type: PropertyBag
+    configuration:
+      key1: key1
+      key2: key2
+  - name: res_sequi_4
+    type: PropertyBag
+    configuration:
+      key1: key1
+      key2: key2
+  - name: res_aut_5
+    type: PropertyBag
+    configuration:
+      key1: key1
+      key2: key2
+  - name: res_ullam_6
+    type: PropertyBag
+    configuration:
+      key1: key1
+      key2: key2
+  - name: res_alias_7
+    type: PropertyBag
+    configuration:
+      key1: key1
+      key2: key2
+  - name: res_nihil_8
+    type: PropertyBag
+    configuration:
+      key1: key1
+      key2: key2
+  - name: res_velit_9
+    type: PropertyBag
+    configuration:
+      key1: key1
+      key2: key2
