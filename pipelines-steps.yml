@@ -14,4 +14,30 @@ pipelines:
         configuration:
           inputResources:
             - name: res_ex_0
+  
+      - name: matrix_step
+        type: Matrix
+        stepMode: Bash
+        execution:
+          onExecute:
+            - printenv
+            - 'echo "Executing step"'
+            - export date=$(date)
+            - pushd $res_res_ex_0_resourcePath/data
+            - ls -l
+            - printenv
+        configuration:
+          multiNode: true
+          inputResources:
+            - name: res_ex_0
+        stepletMultipliers:
+          environmentVariables:
+            - delay: 5
+              fail: 'true'
+            - delay: 10
+              fail: 'false'
+            - delay: 15
+              fail: 'false'
+            - delay: 20
+              fail: 'false' 
       
